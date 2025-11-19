@@ -1,0 +1,16 @@
+# Maintainer: Bruno Goncalves <bigbruno@gmail.com>
+
+pkgname=biglinux-metapackage
+pkgver=$(date +%y.%m.%d)
+pkgrel=$(date +%H%M)
+arch=('any')
+license=('GPL')
+depends=('bigbashview' 'hplip' 'patch')
+depends_x86_64=('render-menu-options')
+# conflicts=('')
+pkgdesc="Meta package to simplify BigLinux updates"
+replaces=('kernel-alive')
+
+package() {
+  true
+}
