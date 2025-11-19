@@ -14,3 +14,4 @@ replaces=('kernel-alive')
 package() {
   true
 }
+
