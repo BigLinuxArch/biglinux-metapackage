@@ -1,8 +1,8 @@
 # Maintainer: Bruno Goncalves <bigbruno@gmail.com>
 
 pkgname=biglinux-metapackage
-pkgver=$(date +%y.%m.%d)
-pkgrel=$(date +%H%M)
+pkgver=25.09.14
+pkgrel=2125
 arch=('any')
 license=('GPL')
 depends=('bigbashview' 'hplip' 'patch')
@@ -14,4 +14,3 @@ replaces=('kernel-alive')
 package() {
   true
 }
-
